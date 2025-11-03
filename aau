@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# Set the commit message
+message="command!1"
+
+# Stage all changes
+git add .
+
+# Commit with the message
+git commit -m "$message"
+
+# Push to GitHub
+git push
